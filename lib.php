@@ -256,6 +256,7 @@ function BuildOutput($olw) {
 		$feed_url = $domain.'/olw-rest-db/api/resource-detailview/' . $material_id;
 		$c = new curl(array('cache'=>true, 'module_cache'=>'repository'));
 		$content = $c->get($feed_url);
+		print_r($c);
 		$elements = json_decode($content, true);
 		$name = $elements['name'];
 		echo "<pre>".print_r ($name, true)."</pre>";
