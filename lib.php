@@ -231,7 +231,7 @@ function BuildOutput($olw) {
 		$material_id = $explosion[$key];
 	}*/
 
-	$nohtml = $inputLink
+	$nohtml = $inputLink;
 
 	// extrahiert das letzte Pfadsegment
 	$ex1 = explode("/", $inputLink);
