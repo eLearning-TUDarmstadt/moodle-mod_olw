@@ -208,6 +208,7 @@ function BuildOutput($olw) {
 	// Alter Link (https://openlearnware.tu-darmstadt.de/material/2597)
 	// oder
 	// Neuer Link ohne zusammengesetzten Namen + ID (https://openlearnware.tu-darmstadt.de/#!/resource/2597)
+	/*
 	if(strpos($inputLink, "#!") == 0
 			|| strpos($inputLink, "-") == 0) {
 
@@ -228,7 +229,10 @@ function BuildOutput($olw) {
 		$key = key($explosion);
 
 		$material_id = $explosion[$key];
-	}
+	}*/
+
+	$last = array_pop(explode("/", $inputLink)));
+	$key = array_pop(explode("-", $last);
 
 	// Wenn Sammlung, dann..
 	if($bool > 0
