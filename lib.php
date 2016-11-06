@@ -231,8 +231,11 @@ function BuildOutput($olw) {
 		$material_id = $explosion[$key];
 	}*/
 
+	// extrahiert das letzte Pfadsegment
 	$last = array_pop(explode("/", $inputLink)));
-	$key = array_pop(explode("-", $last);
+	
+	// extrahiert die Material ID 
+	$material_id = array_pop(explode("-", $last);
 
 	// Wenn Sammlung, dann..
 	if($bool > 0
