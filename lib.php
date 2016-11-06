@@ -232,10 +232,10 @@ function BuildOutput($olw) {
 	}*/
 
 	// extrahiert das letzte Pfadsegment
-	$last = array_pop(explode("/", $inputLink)));
+	$last = array_pop(explode("/", $inputLink));
 	
 	// extrahiert die Material ID 
-	$material_id = array_pop(explode("-", $last);
+	$material_id = array_pop(explode("-", $last));
 
 	// Wenn Sammlung, dann..
 	if($bool > 0
