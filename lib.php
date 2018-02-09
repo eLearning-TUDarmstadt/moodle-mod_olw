@@ -238,8 +238,10 @@ function BuildOutput($olw) {
 	$last = array_pop($ex1);
 	
 	// extrahiert die Material ID
-	$ex2 = explode("-", $last); 
-	$material_id = array_pop($ex2);
+	list($ex2) = explode("-", $last);
+	
+	// entfernt optionale GET-Parameter und speichert die ID des Materials
+	$material_id = parse_url($ex2)['path'];
 
 	// Wenn Sammlung, dann..
 	if($bool > 0
