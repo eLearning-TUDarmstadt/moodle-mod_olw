@@ -65,7 +65,7 @@ class restore_olw_activity_structure_step extends restore_activity_structure_ste
 		$olw->id = $newmodid;
 		$olw->instance = $newmodid;
 		$olw->course = $result->course;
-		$olw->link = "https://openlearnware.tu-darmstadt.de/material/".$materialid;
+		$olw->link = "https://openlearnware.tu-darmstadt.de/resource/".$materialid;
 		require_once($CFG->dirroot . '/mod/olw/lib.php');
 		olw_update_instance($olw);
     }

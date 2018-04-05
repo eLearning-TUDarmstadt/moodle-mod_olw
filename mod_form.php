@@ -55,11 +55,11 @@ class mod_olw_mod_form extends moodleform_mod {
 				
 				// Sammlung oder Material?
 				if(strpos($link->intro, "collection") > 0) {
-					$domain = "https://openlearnware.tu-darmstadt.de/#!/collection/";
+					$domain = "https://openlearnware.tu-darmstadt.de/collection/";
 					$feed_url = "https://openlearnware.tu-darmstadt.de/olw-rest-db/api/collection-detailview/".$matID;
 				}
 				else {
-					$domain = "https://openlearnware.tu-darmstadt.de/#!/resource/";
+					$domain = "https://openlearnware.tu-darmstadt.de/resource/";
 					$feed_url = "https://openlearnware.tu-darmstadt.de/olw-rest-db/api/resource-detailview/".$matID;
 				}
 				
@@ -75,7 +75,7 @@ class mod_olw_mod_form extends moodleform_mod {
 				$name_new = str_replace ( " " , "-" , $name );
 				//echo "<pre>".print_r ($name_new)."</pre>";
 					
-				//.. und fügen die ID hinter den Namen ein
+				//.. und fï¿½gen die ID hinter den Namen ein
 				$nameID = $name_new."-".$matID;
 				//echo "<pre>".print_r ($nameID)."</pre>";
 				

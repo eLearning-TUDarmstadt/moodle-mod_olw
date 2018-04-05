@@ -237,9 +237,10 @@ function BuildOutput($olw) {
 	$path = parse_url($inputLink)['path'];
 	
 	// extrahiert die Material ID
-	$ex1 = explode("-", $path);
-	$material_id = array_pop($ex1);
-	
+	$ex1 = explode("/", $path);
+    $ex2 = explode("-", array_pop($ex1));
+    $material_id = array_pop($ex2);
+
 	// Wenn Sammlung, dann..
 	if($bool > 0
 			|| $bool2 > 0) {
@@ -255,7 +256,7 @@ function BuildOutput($olw) {
 		//echo "<pre>".print_r ($name_new, true)."</pre>";
 
 		//Link zusammensetzen
-		$ausgabe = "<a href='".$domain."/#!/collection/".$name_new."-".$material_id."' target='_blanc'>OpenLearnWare: ".$name."</a>";
+		$ausgabe = "<a href='".$domain."/collection/".$name_new."-".$material_id."' target='_blanc'>OpenLearnWare: ".$name."</a>";
 
 		return array('ausgabe' => $ausgabe, 'name' => $name, 'materialid' => $material_id);
 	}

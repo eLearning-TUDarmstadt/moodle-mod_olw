@@ -50,9 +50,9 @@ $string['pluginname'] = 'olw';
 $string['enterlink'] = 'Link to OpenLearnWare material';
 $string['link_help'] = 'Look for the material on <a href="https://openlearnware.tu-darmstadt.de/">OpenLearnWare</a> and copy the link shown in the address-field of your browser to this line.
 Example: <br />
-https://openlearnware.tu-darmstadt.de/#!/resource/14-Libration-2597';
+https://openlearnware.tu-darmstadt.de/resource/14-Libration-2597';
 
 $string['link'] = "Link?";
 $string['infoandsource'] = 'information & source';
 
-$string['wronglink'] = "Link must be like https://openlearnware.tu-darmstadt.de/#!/resource/materialname-materialnumber";
+$string['wronglink'] = "Link must be like https://openlearnware.tu-darmstadt.de/resource/materialname-materialnumber";
