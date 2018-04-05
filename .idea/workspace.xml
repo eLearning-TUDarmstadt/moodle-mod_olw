@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71e941d5-b64e-4ed2-bd0c-c058acf9f8bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backup/moodle2/restore_olw_stepslib.php" afterPath="$PROJECT_DIR$/backup/moodle2/restore_olw_stepslib.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/en/olw.php" afterPath="$PROJECT_DIR$/lang/en/olw.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib.php" afterPath="$PROJECT_DIR$/lib.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mod_form.php" afterPath="$PROJECT_DIR$/mod_form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mod_form.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mod_form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mod_form.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="598">
               <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -100,6 +107,7 @@
       <list>
         <option value="$PROJECT_DIR$/backup/moodle2/restore_olw_stepslib.php" />
         <option value="$PROJECT_DIR$/lib.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -208,17 +216,6 @@
             <path>
               <item name="mod_olw" type="b2602c69:ProjectViewProjectNode" />
               <item name="mod_olw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_olw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_olw" type="462c0819:PsiDirectoryNode" />
-              <item name="backup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mod_olw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mod_olw" type="462c0819:PsiDirectoryNode" />
-              <item name="backup" type="462c0819:PsiDirectoryNode" />
-              <item name="moodle2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -349,12 +346,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522932013617</updated>
-      <workItem from="1522932015819" duration="577000" />
+      <workItem from="1522932015819" duration="781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="577000" />
+    <option name="totallyTimeSpent" value="781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -445,6 +442,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
